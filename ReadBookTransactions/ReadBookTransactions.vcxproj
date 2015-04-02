@@ -10,9 +10,19 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\Ryan%27s Folder\Programming\C++\Assignments\Assignment 3\ReadBookTransactions\Sales_item.h" />
+    <ClInclude Include="..\..\..\..\..\..\Ryan%27s Folder\Programming\C++\Assignments\Assignment 3\ReadBookTransactions\Version_test.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\..\..\Ryan%27s Folder\Programming\C++\Assignments\Assignment 3\ReadBookTransactions\SalesItemSet.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\Ryan%27s Folder\Programming\C++\Assignments\Assignment 3\ReadBookTransactions\ReadBookTransactions.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B4C34A65-0EA8-40F8-962C-A18302CA160D}</ProjectGuid>
-    <RootNamespace>Assignment3</RootNamespace>
+    <ProjectGuid>{9D52C003-9C07-43ED-BD4E-C1C357CA4AF2}</ProjectGuid>
+    <RootNamespace>ReadBookTransactions</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -63,8 +73,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
