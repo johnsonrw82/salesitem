@@ -10,19 +10,9 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\Ryan%27s Folder\Programming\C++\Assignments\Assignment 3\ReadBookTransactions\Sales_item.h" />
-    <ClInclude Include="..\..\..\..\..\..\Ryan%27s Folder\Programming\C++\Assignments\Assignment 3\ReadBookTransactions\Version_test.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="..\..\..\..\..\..\Ryan%27s Folder\Programming\C++\Assignments\Assignment 3\ReadBookTransactions\SalesItemSet.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\Ryan%27s Folder\Programming\C++\Assignments\Assignment 3\ReadBookTransactions\ReadBookTransactions.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9D52C003-9C07-43ED-BD4E-C1C357CA4AF2}</ProjectGuid>
-    <RootNamespace>ReadBookTransactions</RootNamespace>
+    <ProjectGuid>{A7B913B1-8E43-4D07-8BB3-E63D016B9012}</ProjectGuid>
+    <RootNamespace>SumSameBooks</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -54,12 +44,12 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)\ReadBookTransactions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreAllDefaultLibraries>
       </IgnoreAllDefaultLibraries>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -76,6 +66,16 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\Ryan%27s Folder\Programming\C++\Assignments\Assignment 3\ReadBookTransactions\Sales_item.h" />
+    <ClInclude Include="..\..\..\..\..\..\Ryan%27s Folder\Programming\C++\Assignments\Assignment 3\ReadBookTransactions\Version_test.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\Ryan%27s Folder\Programming\C++\Assignments\Assignment 3\SumSameBooks\SumSameItems.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\..\..\Ryan%27s Folder\Programming\C++\Assignments\Assignment 3\SumSameBooks\SameItems.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
